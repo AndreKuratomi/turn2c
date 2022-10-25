@@ -126,7 +126,7 @@ Esse projeto atende a fins exclusivamente didáticos e sem nenhum intuito comerc
 
 # Referências
 
-- [Java](https://docs.aws.amazon.com/ec2/index.html)
+- [Java](https://www.java.com/pt-BR/)
 - [Java (Oracle install)](https://docs.oracle.com/en/java/javase/19/install/installation-jdk-linux-platforms.html#GUID-737A84E4-2EFF-4D38-8E60-3E29D1B884B8)
 - [Java (install on Linux Ubuntu)](https://phoenixnap.com/kb/how-to-install-java-ubuntu)
 - [Java (W3Schools)](https://www.w3schools.com/java/)
