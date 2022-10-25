@@ -131,7 +131,8 @@ Esse projeto atende a fins exclusivamente didáticos e sem nenhum intuito comerc
 - [Java (install on Linux Ubuntu)](https://phoenixnap.com/kb/how-to-install-java-ubuntu)
 - [Java (W3Schools)](https://www.w3schools.com/java/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
-- [Spring Boot Initializr](https://start.spring.io/)
+- [Spring Boot (Initializr)](https://start.spring.io/)
+- [Spring Boot (Tutorial | Full Course [2022])](https://www.youtube.com/watch?v=9SGDpanrc8U)
 <!--
 - [DjangoMail](https://docs.djangoproject.com/en/4.1/topics/email/)
 - [Django Rest framework](https://www.django-rest-framework.org/#)
