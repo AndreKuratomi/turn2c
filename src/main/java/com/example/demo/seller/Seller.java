@@ -1,5 +1,7 @@
 package com.example.demo.seller;
 
+import javax.persistence.*;
+
 @Entity
 @Table
 public class Seller {
