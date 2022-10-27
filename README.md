@@ -47,6 +47,12 @@ E por fim <b>Java 11</b>:
 sudo apt install oracle-java11-installer
 ```
 
+- O banco de dados <b>MySQL</b>
+
+```
+sudo apt install mysql -y
+```
+
 - <p> E versionar o diretório para receber o clone da aplicação:</p>
 
 ```
@@ -59,66 +65,11 @@ git init
 ```
 git clone https://github.com/AndreKuratomi/PrototipoLogin-API.git
 ```
-
-<!-- <p>Entrar na pasta criada:</p>
-
-```
-cd PrototipoLogin-API
-```
-
-Após feito o clone do repositório PrototipoLogin-API, instalar:
-
-O ambiente virtual e atualizar suas dependências com o seguinte comando:
-
-```
-python -m venv venv --upgrade-deps
-```
-
-Ative o seu ambiente virtual com o comando:
-
-```
-source/venv/bin/activate
-```
-
-Instalar suas dependências:
-
-```
-pip install -r requirements.txt
-```
-
-E rodar a aplicação:
-
-```
-code .
-```
-
-<br>
-
-<h5>2. Feitas as instalações precisamos criar nosso arquivo de variáveis de ambiente, o <span style="text-decoration: underline">.env</span>:</h5>
-
-```
-touch .env
-```
-
-Dentro dele precisamos definir nossas variáveis de ambiente:
-
-```
-EMAIL_HOST_USER=user_mail
-EMAIL_HOST_PASSWORD=password
-
-POSTGRES_DB=database
-POSTGRES_HOST=host
-POSTGRES_PASSWORD=password
-POSTGRES_USER=user
-```
-
-<b>Obs:</b> as informações contidas no arquivo <b>.env</b> não devem ser compartilhadas. O arquivo já consta no <b>.gitignore</b> para não ser subido no repositório. -->
+(...)
 
 # Documentação
 
-Para ter acesso às descrições, detalhes das rotas e seus retornos, conferir documentação completa no link a seguir:
-
-https://insomnia-documentation-mauve.vercel.app/
+(...)
 
 # Termos de uso
 
