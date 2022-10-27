@@ -81,7 +81,7 @@ Esse projeto atende a fins exclusivamente didáticos e sem nenhum intuito comerc
 - [Java (Oracle install)](https://docs.oracle.com/en/java/javase/19/install/installation-jdk-linux-platforms.html#GUID-737A84E4-2EFF-4D38-8E60-3E29D1B884B8)
 - [Java (install on Linux Ubuntu)](https://phoenixnap.com/kb/how-to-install-java-ubuntu)
 - [Java (W3Schools)](https://www.w3schools.com/java/)
-- [MySQL](https://itsfoss.com/install-mysql-ubuntu/)
+- [MySQL (install on Linux Ubuntu)](https://itsfoss.com/install-mysql-ubuntu/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring Boot (Initializr)](https://start.spring.io/)
 - [Spring Boot (Tutorial | Full Course [2022])](https://www.youtube.com/watch?v=9SGDpanrc8U)
