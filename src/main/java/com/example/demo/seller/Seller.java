@@ -1,0 +1,72 @@
+package com.example.demo.seller;
+
+@Entity
+@Table
+public class Seller {
+    @Id
+    @SequenceGenerator(
+        name = "seller_sequence",
+        sequenceName = "seller_sequence",
+        allocationSize = 1
+    )
+    @GeneratedValue(
+        strategy = GenerationSize.SEQUENCE,
+        generator = "seller_sequence",
+    )
+    private Long id;
+    private String name;
+    private String email;
+    
+    // 3 CONSTRUCTORS:
+    // Constructor 1/3:
+    public Seller() {
+    }
+    
+    // Constructor 2/3 (Constructor with everything):
+    public Seller(Long id,
+                  String name,
+                  String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+    }
+    
+    // Constructor 3/3 (Constructor without ID):
+    public Seller(String name,
+                  String email) {
+        this.name = name;
+        this.email = email;
+    }
+
+    // GETTERS & SETTERS:
+    public Long getId() {
+        return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public void set(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+    public void set(String email) {
+        this.email = email;
+    }
+
+    // TOSTRING:
+    @Override
+    public String toString() {
+        return "Seller{" +
+               "id=" + id +
+               ", name='" + name + '\'' +
+               ", email='" + email + '\'' +
+               "}";
+    }
+}
