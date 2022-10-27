@@ -50,7 +50,7 @@ sudo apt install oracle-java11-installer
 - O banco de dados <b>MySQL</b>
 
 ```
-sudo apt install mysql -y
+sudo apt install mysql-server -y
 ```
 
 - <p> E versionar o diretório para receber o clone da aplicação:</p>
