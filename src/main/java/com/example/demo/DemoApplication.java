@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,4 +10,20 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
+	// @GetMapping
+	// public String hello() {
+	// 	return "Hello world";
+	// }
+
+	// @GetMapping
+	// public String hello() {
+	// 	return "Hello world";
+	// }
 }
+
+// public class HelloWord {
+
+// 	public static void main(String[] args) {
+// 		System.out.println("Hello world!")
+// 	}
+// }
