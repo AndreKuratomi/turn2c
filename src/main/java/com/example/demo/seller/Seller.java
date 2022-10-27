@@ -1,17 +1,17 @@
-package com.example.demo.client;
+package com.example.demo.seller;
 
 @Entity
 @Table
-public class Client {
+public class Seller {
     @Id
     @SequenceGenerator(
-        name = "client_sequence",
-        sequenceName = "client_sequence",
+        name = "seller_sequence",
+        sequenceName = "seller_sequence",
         allocationSize = 1
     )
     @GeneratedValue(
         strategy = GenerationSize.SEQUENCE,
-        generator = "client_sequence",
+        generator = "seller_sequence",
     )
     private Long id;
     private String name;
@@ -19,11 +19,11 @@ public class Client {
     
     // 3 CONSTRUCTORS:
     // Constructor 1/3:
-    public Client() {
+    public Seller() {
     }
     
     // Constructor 2/3 (Constructor with everything):
-    public Client(Long id,
+    public Seller(Long id,
                   String name,
                   String email) {
         this.id = id;
@@ -32,7 +32,7 @@ public class Client {
     }
     
     // Constructor 3/3 (Constructor without ID):
-    public Client(String name,
+    public Seller(String name,
                   String email) {
         this.name = name;
         this.email = email;
@@ -63,7 +63,7 @@ public class Client {
     // TOSTRING:
     @Override
     public String toString() {
-        return "Client{" +
+        return "Seller{" +
                "id=" + id +
                ", name='" + name + '\'' +
                ", email='" + email + '\'' +
