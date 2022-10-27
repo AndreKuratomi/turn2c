@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
-@Repository
+@Repository // responsible for data analisis
 public interface ClientRepository extends JpaRepository<Client, Long> {
     @Query("SELECT s FROM Client s WHERE s.email = ?1")
     Optional<Client> findClientByEmail(String email);

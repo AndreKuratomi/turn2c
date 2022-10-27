@@ -1,5 +1,7 @@
 package com.example.demo.client;
 
+import javax.persistence.*;
+
 @Entity
 @Table
 public class Client {
